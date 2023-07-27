@@ -72,6 +72,61 @@ main{
     margin-left: 20%;
 }
 
+.ethics_text{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 150px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.ethics_text h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.recomendation{
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.recomendation h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.recomendation ul{
+    list-style-type: decimal;
+}
+
+.recomendation li{
+    margin-top: 20px;
+}   
+
+.recomendation b{
+    font-size: 22px;
+}
+
+.community_rec{
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.community_rec h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.community_rec ul{
+margin-top: 30px;
+}
+
+.community_rec li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
 .container {
     max-width: 600px;
     margin: 100px auto;
@@ -87,19 +142,13 @@ main{
     color: #000000;
 }
 
-.table_title{
+.table_title {
     text-align: center;
     color: #000000;
 }
 
-.table_tr{
-    color: #000000;
-    display: flex;
-    gap: 250px;
-}
-
-.table_tr th{
-    padding: 20px;
+table {
+    margin: 0 auto;
 }
 
 th, td {
@@ -116,7 +165,6 @@ th {
 tr:hover {
     background-color: #f5f5f5;
 }
-
   .form {
     display: flex;
     flex-direction: column;
