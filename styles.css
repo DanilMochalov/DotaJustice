@@ -94,10 +94,12 @@ main{
 
 .table_tr{
     color: #000000;
+    display: flex;
+    gap: 250px;
 }
 
 .table_tr th{
-    padding: 40px;
+    padding: 20px;
 }
 
 th, td {
