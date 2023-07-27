@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 $steamLink = $_POST["steamLink"];
 $complaintReason = $_POST["complaintReason"];
 
-$sql = "INSERT INTO ваша_таблица (steamLink, report) VALUES ('$steamLink', '$complaintReason')";
+$sql = "INSERT INTO reportStats (steamLink, report) VALUES ('$steamLink', '$complaintReason')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Данные успешно сохранены";
