@@ -1,0 +1,139 @@
+body{
+background-color: #000000;
+color: #ffffff;
+font-family: 'Shantell Sans', cursive;
+margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Выравниваем элементы вертикально по центру */
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон белого цвета */
+    padding: 4px 8px; /* Добавляем немного отступов для визуального улучшения */
+    position: fixed; /* Фиксируем хедер на экране */
+    top: 0; /* Размещаем хедер вверху страницы */
+    left: 0;
+    right: 0;
+    z-index: 999; /* Устанавливаем z-index для уверенности, что хедер будет на переднем плане */
+  }
+  
+  .header_logo {
+    margin-left: 20px;
+    height: 50px; /* Задайте желаемую высоту и ширину вашего логотипа */
+    width: auto; /* Чтобы сохранить пропорции логотипа */
+  }
+  
+  .menu {
+    list-style-type: none;
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    gap: 20px;
+    margin: 0; /* Убираем отступы сверху и снизу у меню */
+  }
+  
+  .menu a {
+    margin-right: 20px;
+    text-decoration: none; /* Убираем подчеркивание для ссылок внутри меню */
+    font-family: 'Shantell Sans', cursive;
+    color:  #000000;
+    font-size: 23px;
+  }
+
+main{
+    margin-top: 60px;
+}
+.main_img {
+    position: relative;
+    width: 100%;
+    height: 800px; 
+    background-image: url('img/background_img.jpeg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main_text {
+    font-family: 'Ruslan Display', cursive;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    font-size: 90px; 
+    color: #fff; 
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.about{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 150px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-top: 150px;
+  }
+
+.container h1{
+    text-align: center;
+    color: #000000;
+}
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #040506;
+  }
+
+  .footer_div{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Выравниваем элементы вертикально по центру */
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон белого цвета */
+    padding: 4px 8px; /* Добавляем немного отступов для визуального улучшения */
+  }
+
+  .social_ul{
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-left: 35px;
+  }
+  .social_img{
+    height: 30px;
+  }
+
+  .link_mochalov{
+    font-family: 'Shantell Sans', cursive;
+    color: #000000;
+    font-size: medium;
+    margin-right: 30px;
+  }
