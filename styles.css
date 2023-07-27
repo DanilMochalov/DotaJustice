@@ -82,10 +82,24 @@ main{
     margin-top: 150px;
   }
 
-.container h1{
+.container h1 {
     text-align: center;
     color: #000000;
 }
+
+.table_title{
+    text-align: center;
+    color: #000000;
+}
+
+.table_tr{
+    color: #000000;
+}
+
+.table_tr th{
+    padding: 40px;
+}
+
   .form {
     display: flex;
     flex-direction: column;
